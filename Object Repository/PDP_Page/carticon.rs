@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>carticon</name>
+   <tag></tag>
+   <elementGuidId>57a2ba9d-026f-4efd-8289-6a057ad5442f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;header&quot;]/div[1]/div[2]/div[4]/div[6]/a/span[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;header&quot;]/div[1]/div[2]/div[4]/div[6]/a/span[2]</value>
+   </webElementProperties>
+</WebElementEntity>

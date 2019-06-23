@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ordernumber</name>
+   <tag></tag>
+   <elementGuidId>3eff8b09-ffd3-4137-be5f-3eb0a69df401</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/div[2]/main/div/div/div/div[3]/div[1]/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/div[2]/main/div/div/div/div[3]/div[1]/strong</value>
+   </webElementProperties>
+</WebElementEntity>

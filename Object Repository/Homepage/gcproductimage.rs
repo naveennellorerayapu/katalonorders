@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>gcproductimage</name>
+   <tag></tag>
+   <elementGuidId>46eebaaa-34fd-40a8-849f-6fe3dfad1e50</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;content&quot;]/div[2]/main/div[4]/div/div[1]/div[1]/div/a/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id=&quot;content&quot;]/div[2]/main/div[4]/div/div[1]/div[1]/div/a/img</value>
+   </webElementProperties>
+</WebElementEntity>
