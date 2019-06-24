@@ -1,0 +1,168 @@
+1
+00:00:00,225 --> 00:00:00,225
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:11,569 --> 00:00:11,569
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:11,631 --> 00:00:11,633
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:11,633 --> 00:00:11,633
+13. maximizeWindow()
+
+5
+00:00:11,881 --> 00:00:11,881
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:12,412 --> 00:00:12,415
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:12,665 --> 00:00:12,668
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:13,504 --> 00:00:13,504
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:13,609 --> 00:00:13,614
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:14,681 --> 00:00:14,681
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:14,915 --> 00:00:14,915
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:14,982 --> 00:00:14,982
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:16,317 --> 00:00:16,317
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "House & Home Flat Sheet - Green - Queen")
+
+14
+00:00:16,656 --> 00:00:16,659
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:19,835 --> 00:00:19,835
+57. mouseOver(findTestObject("Homepage/gcproductimage"), STOP_ON_FAILURE)
+
+16
+00:00:19,891 --> 00:00:19,891
+61. click(findTestObject("Homepage/gcproductimage"))
+
+17
+00:00:19,979 --> 00:00:42,185
+65. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/div_iPhone 8 Plus"))
+
+18
+00:00:42,477 --> 00:00:42,478
+69. setText(findTestObject("PDP_Page/qty"), "2")
+
+19
+00:00:42,479 --> 00:00:42,479
+73. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:42,542 --> 00:00:42,543
+77. click(findTestObject("PDP_Page/addtocart"))
+
+21
+00:00:42,700 --> 00:00:42,701
+81. click(findTestObject("PDP_Page/carticon"))
+
+22
+00:00:42,824 --> 00:00:42,825
+85. waitForElementVisible(findTestObject("PDP_Page/carticon"), 3)
+
+23
+00:00:45,386 --> 00:00:45,387
+89. click(findTestObject("PDP_Page/carticon"))
+
+24
+00:00:45,388 --> 00:00:45,389
+93. mouseOver(findTestObject("CartPage/proceedtocheckout"))
+
+25
+00:00:45,390 --> 00:00:45,390
+97. clearText(findTestObject("CartPage/qtyupdate"))
+
+26
+00:00:45,471 --> 00:00:45,472
+101. setText(findTestObject("CartPage/qtyupdate"), "2")
+
+27
+00:00:45,543 --> 00:00:45,544
+105. click(findTestObject("CartPage/updateqtybutton"))
+
+28
+00:00:49,591 --> 00:00:49,592
+109. click(findTestObject("CartPage/proceedtocheckout"))
+
+29
+00:00:51,071 --> 00:00:51,073
+113. mouseOver(findTestObject("CheckoutPage/nextstep"))
+
+30
+00:00:51,152 --> 00:00:51,152
+117. click(findTestObject("CheckoutPage/nextstep"))
+
+31
+00:00:53,664 --> 00:00:53,670
+121. click(findTestObject("CheckoutPage/giftcard"))
+
+32
+00:00:53,797 --> 00:00:53,798
+125. setText(findTestObject("CheckoutPage/gccardnumber"), "6280005550028611870")
+
+33
+00:00:55,566 --> 00:00:55,567
+129. setText(findTestObject("CheckoutPage/gccardpin"), "2862")
+
+34
+00:00:55,663 --> 00:00:55,663
+133. click(findTestObject("CheckoutPage/gcapply"))
+
+35
+00:00:55,744 --> 00:00:55,745
+137. click(findTestObject("CheckoutPage/editamount"))
+
+36
+00:00:57,371 --> 00:00:57,371
+141. clearText(findTestObject("CheckoutPage/gctextamt"))
+
+37
+00:00:57,445 --> 00:00:57,446
+145. setText(findTestObject("CheckoutPage/gctextamt"), "1")
+
+38
+00:00:57,521 --> 00:00:57,522
+149. click(findTestObject("CheckoutPage/gcupdate"))
+
+39
+00:00:57,599 --> 00:00:57,600
+153. scrollToElement(findTestObject("CheckoutPage/afterpay"), 2)
+
+40
+00:00:57,654 --> 00:00:57,655
+157. mouseOver(findTestObject("CheckoutPage/paypal"))
+
+41
+00:00:57,702 --> 00:00:57,702
+161. click(findTestObject("CheckoutPage/paypal"))
+
+42
+00:00:57,757 --> 00:00:57,757
+165. click(findTestObject("CheckoutPage/proceedtopaypal"))
+

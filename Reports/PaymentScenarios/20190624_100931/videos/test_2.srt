@@ -1,0 +1,168 @@
+1
+00:00:00,232 --> 00:00:00,232
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:12,292 --> 00:00:12,292
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:12,387 --> 00:00:12,387
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:12,389 --> 00:00:12,389
+13. maximizeWindow()
+
+5
+00:00:12,615 --> 00:00:12,615
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:13,121 --> 00:00:13,121
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:13,336 --> 00:00:13,336
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:14,180 --> 00:00:14,182
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:14,313 --> 00:00:14,313
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:15,270 --> 00:00:15,273
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:15,448 --> 00:00:15,448
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:15,488 --> 00:00:15,488
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:16,787 --> 00:00:16,787
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "Intex Stargaze Pool SZet - 59460NP")
+
+14
+00:00:17,073 --> 00:00:17,073
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:21,064 --> 00:00:21,067
+57. mouseOver(findTestObject("Homepage/searchimage"), STOP_ON_FAILURE)
+
+16
+00:00:21,141 --> 00:00:21,143
+61. click(findTestObject("Homepage/searchimage"))
+
+17
+00:00:21,251 --> 00:00:42,220
+65. setText(findTestObject("PDP_Page/qty"), "3")
+
+18
+00:00:42,497 --> 00:00:42,497
+69. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+19
+00:00:42,572 --> 00:00:42,574
+73. click(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:42,827 --> 00:00:42,827
+77. mouseOver(findTestObject("PDP_Page/carticon"))
+
+21
+00:00:42,829 --> 00:00:42,829
+81. click(findTestObject("PDP_Page/checkout"))
+
+22
+00:00:43,561 --> 00:00:43,562
+85. waitForElementVisible(findTestObject("PDP_Page/carticon"), 4)
+
+23
+00:00:45,997 --> 00:00:45,998
+89. click(findTestObject("PDP_Page/carticon"))
+
+24
+00:00:46,001 --> 00:00:46,002
+93. mouseOver(findTestObject("CartPage/proceedtocheckout"))
+
+25
+00:00:46,002 --> 00:00:46,002
+97. clearText(findTestObject("CartPage/qtyupdate"))
+
+26
+00:00:46,105 --> 00:00:46,105
+101. setText(findTestObject("CartPage/qtyupdate"), "3")
+
+27
+00:00:46,195 --> 00:00:46,195
+105. click(findTestObject("CartPage/updateqtybutton"))
+
+28
+00:00:46,283 --> 00:00:46,283
+109. click(findTestObject("CartPage/proceedtocheckout"))
+
+29
+00:00:47,769 --> 00:00:47,771
+113. mouseOver(findTestObject("CheckoutPage/nextstep"))
+
+30
+00:00:47,846 --> 00:00:47,847
+117. click(findTestObject("CheckoutPage/nextstep"))
+
+31
+00:00:50,581 --> 00:00:50,584
+121. click(findTestObject("CheckoutPage/giftcard"))
+
+32
+00:00:50,719 --> 00:00:50,720
+125. setText(findTestObject("CheckoutPage/gccardnumber"), "6280005550028611870")
+
+33
+00:00:52,415 --> 00:00:52,415
+129. setText(findTestObject("CheckoutPage/gccardpin"), "2862")
+
+34
+00:00:52,543 --> 00:00:52,543
+133. click(findTestObject("CheckoutPage/gcapply"))
+
+35
+00:00:52,637 --> 00:00:52,638
+137. click(findTestObject("CheckoutPage/editamount"))
+
+36
+00:00:55,964 --> 00:00:55,965
+141. clearText(findTestObject("CheckoutPage/gctextamt"))
+
+37
+00:00:56,035 --> 00:00:56,036
+145. setText(findTestObject("CheckoutPage/gctextamt"), "1")
+
+38
+00:00:56,112 --> 00:00:56,113
+149. click(findTestObject("CheckoutPage/gcupdate"))
+
+39
+00:00:56,193 --> 00:00:56,194
+153. scrollToElement(findTestObject("CheckoutPage/afterpay"), 2)
+
+40
+00:00:56,235 --> 00:00:56,236
+157. mouseOver(findTestObject("CheckoutPage/afterpay"))
+
+41
+00:00:56,274 --> 00:00:56,276
+161. click(findTestObject("CheckoutPage/afterpay"))
+
+42
+00:00:56,358 --> 00:00:56,358
+165. click(findTestObject("CheckoutPage/afterpayproceed"))
+

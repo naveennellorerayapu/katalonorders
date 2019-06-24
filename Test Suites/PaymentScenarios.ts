@@ -40,10 +40,4 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Prod_Login</testCaseId>
    </testCaseLink>
-   <testCaseLink>
-      <guid>aa4ce7b8-2da3-44f8-b7fc-7898abcb8763</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Order-Zippay</testCaseId>
-   </testCaseLink>
 </TestSuiteEntity>

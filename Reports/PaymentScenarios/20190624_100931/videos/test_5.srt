@@ -1,0 +1,28 @@
+1
+00:00:00,140 --> 00:00:00,141
+1. openBrowser("https://www.bigw.com.au/")
+
+2
+00:00:06,126 --> 00:00:06,126
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:06,160 --> 00:00:06,160
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:06,161 --> 00:00:06,162
+13. maximizeWindow()
+
+5
+00:00:06,287 --> 00:00:06,287
+17. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+6
+00:00:07,728 --> 00:00:07,730
+21. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+7
+00:00:08,645 --> 00:00:08,645
+25. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
