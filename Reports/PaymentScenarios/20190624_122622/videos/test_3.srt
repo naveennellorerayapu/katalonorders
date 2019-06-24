@@ -1,0 +1,140 @@
+1
+00:00:00,256 --> 00:00:00,256
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:11,753 --> 00:00:11,753
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:11,959 --> 00:00:11,959
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:11,961 --> 00:00:11,961
+13. maximizeWindow()
+
+5
+00:00:12,266 --> 00:00:12,267
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:12,924 --> 00:00:12,924
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:13,541 --> 00:00:13,541
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:14,817 --> 00:00:14,820
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:14,931 --> 00:00:14,931
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:15,840 --> 00:00:15,840
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:16,032 --> 00:00:16,032
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:16,080 --> 00:00:16,080
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:17,169 --> 00:00:17,171
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "House & Home Flat Sheet - Green - Queen")
+
+14
+00:00:17,507 --> 00:00:17,507
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:20,777 --> 00:00:20,777
+57. mouseOver(findTestObject("Homepage/gcproductimage"), STOP_ON_FAILURE)
+
+16
+00:00:20,888 --> 00:00:20,888
+61. click(findTestObject("Homepage/gcproductimage"))
+
+17
+00:00:20,981 --> 00:00:42,394
+65. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/div_iPhone 8 Plus"))
+
+18
+00:00:42,528 --> 00:00:42,528
+69. setText(findTestObject("PDP_Page/qty"), "2")
+
+19
+00:00:42,533 --> 00:00:42,533
+73. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:42,607 --> 00:00:42,607
+77. click(findTestObject("PDP_Page/addtocart"))
+
+21
+00:00:42,773 --> 00:00:42,773
+81. click(findTestObject("PDP_Page/carticon"))
+
+22
+00:00:45,751 --> 00:00:45,752
+85. waitForElementVisible(findTestObject("PDP_Page/carticon"), 3)
+
+23
+00:00:45,862 --> 00:00:45,863
+89. click(findTestObject("PDP_Page/carticon"))
+
+24
+00:00:45,866 --> 00:00:45,866
+93. mouseOver(findTestObject("CartPage/proceedtocheckout"))
+
+25
+00:00:45,867 --> 00:00:45,867
+97. clearText(findTestObject("CartPage/qtyupdate"))
+
+26
+00:00:45,938 --> 00:00:45,938
+101. setText(findTestObject("CartPage/qtyupdate"), "2")
+
+27
+00:00:46,029 --> 00:00:46,030
+105. click(findTestObject("CartPage/updateqtybutton"))
+
+28
+00:00:47,840 --> 00:00:47,841
+109. click(findTestObject("CartPage/proceedtocheckout"))
+
+29
+00:00:49,353 --> 00:00:49,353
+113. mouseOver(findTestObject("CheckoutPage/nextstep"))
+
+30
+00:00:49,477 --> 00:00:49,478
+117. click(findTestObject("CheckoutPage/nextstep"))
+
+31
+00:00:52,146 --> 00:00:52,146
+121. click(findTestObject("CheckoutPage/giftcard"))
+
+32
+00:00:52,296 --> 00:00:52,297
+125. setText(findTestObject("CheckoutPage/gccardnumber"), "6280005550028611870")
+
+33
+00:00:53,928 --> 00:00:53,929
+129. setText(findTestObject("CheckoutPage/gccardpin"), "2862")
+
+34
+00:00:54,072 --> 00:00:54,072
+133. click(findTestObject("CheckoutPage/gcapply"))
+
+35
+00:00:54,167 --> 00:00:54,167
+137. click(findTestObject("CheckoutPage/editamount"))
+

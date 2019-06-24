@@ -1,0 +1,20 @@
+1
+00:00:00,177 --> 00:00:00,178
+1. openBrowser("https://www.bigw.com.au/")
+
+2
+00:00:08,420 --> 00:00:08,420
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:08,434 --> 00:00:08,434
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:08,437 --> 00:00:08,437
+13. maximizeWindow()
+
+5
+00:00:08,582 --> 00:00:08,583
+17. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+

@@ -1,0 +1,136 @@
+1
+00:00:00,733 --> 00:00:00,739
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:13,106 --> 00:00:13,108
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:13,507 --> 00:00:13,511
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:13,515 --> 00:00:13,516
+13. maximizeWindow()
+
+5
+00:00:13,865 --> 00:00:13,867
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:14,843 --> 00:00:14,847
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:15,226 --> 00:00:15,228
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:16,364 --> 00:00:16,365
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:16,502 --> 00:00:16,535
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:17,558 --> 00:00:17,559
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:17,823 --> 00:00:17,824
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:17,908 --> 00:00:17,910
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:19,146 --> 00:00:19,150
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "Intex Stargaze Pool SZet - 59460NP")
+
+14
+00:00:19,523 --> 00:00:19,524
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:20,612 --> 00:00:20,612
+57. mouseOver(findTestObject("Homepage/searchimage"), STOP_ON_FAILURE)
+
+16
+00:00:20,671 --> 00:00:20,677
+61. click(findTestObject("Homepage/searchimage"))
+
+17
+00:00:21,903 --> 00:00:21,904
+65. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/div_iPhone 8 Plus"))
+
+18
+00:00:21,909 --> 00:00:21,909
+69. setText(findTestObject("PDP_Page/qty"), "3")
+
+19
+00:00:21,911 --> 00:00:21,911
+73. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:21,973 --> 00:00:21,974
+77. click(findTestObject("PDP_Page/addtocart"))
+
+21
+00:00:22,079 --> 00:00:22,081
+81. click(findTestObject("PDP_Page/checkout"))
+
+22
+00:00:22,735 --> 00:00:22,738
+85. waitForElementVisible(findTestObject("PDP_Page/carticon"), 3)
+
+23
+00:00:22,812 --> 00:00:22,813
+89. click(findTestObject("PDP_Page/carticon"))
+
+24
+00:00:22,818 --> 00:00:22,818
+93. mouseOver(findTestObject("CartPage/proceedtocheckout"))
+
+25
+00:00:22,819 --> 00:00:22,819
+97. clearText(findTestObject("CartPage/qtyupdate"))
+
+26
+00:00:24,834 --> 00:00:24,835
+101. setText(findTestObject("CartPage/qtyupdate"), "3")
+
+27
+00:00:24,945 --> 00:00:24,946
+105. click(findTestObject("CartPage/updateqtybutton"))
+
+28
+00:00:26,259 --> 00:00:26,263
+109. clearText(findTestObject("CartPage/qtyupdate"))
+
+29
+00:00:26,316 --> 00:00:26,317
+113. setText(findTestObject("CartPage/qtyupdate"), "3")
+
+30
+00:00:26,385 --> 00:00:26,386
+117. click(findTestObject("CartPage/updateqtybutton"))
+
+31
+00:00:26,461 --> 00:00:26,465
+121. click(findTestObject("CartPage/proceedtocheckout"))
+
+32
+00:00:28,334 --> 00:00:28,335
+125. mouseOver(findTestObject("CheckoutPage/nextstep"))
+
+33
+00:00:28,389 --> 00:00:28,389
+129. click(findTestObject("CheckoutPage/nextstep"))
+
+34
+00:00:38,458 --> 00:00:38,459
+133. click(findTestObject("CheckoutPage/afterpay"))
+

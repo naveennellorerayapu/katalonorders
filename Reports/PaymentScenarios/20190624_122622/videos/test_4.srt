@@ -1,0 +1,80 @@
+1
+00:00:00,185 --> 00:00:00,187
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:10,065 --> 00:00:10,066
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:10,164 --> 00:00:10,164
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:10,166 --> 00:00:10,166
+13. maximizeWindow()
+
+5
+00:00:10,656 --> 00:00:10,656
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:11,288 --> 00:00:11,290
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:11,599 --> 00:00:11,599
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:12,294 --> 00:00:12,295
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:12,390 --> 00:00:12,390
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:13,284 --> 00:00:13,284
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:13,723 --> 00:00:13,723
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:13,813 --> 00:00:13,813
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:14,824 --> 00:00:14,824
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "Intex Stargaze Pool SZet - 59460NP")
+
+14
+00:00:15,110 --> 00:00:15,110
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:18,745 --> 00:00:18,747
+57. mouseOver(findTestObject("Homepage/searchimage"), STOP_ON_FAILURE)
+
+16
+00:00:18,818 --> 00:00:18,821
+61. click(findTestObject("Homepage/searchimage"))
+
+17
+00:00:18,923 --> 00:00:42,108
+65. setText(findTestObject("PDP_Page/qty"), "2")
+
+18
+00:00:42,428 --> 00:00:42,429
+69. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+19
+00:00:42,544 --> 00:00:42,544
+73. click(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:43,059 --> 00:00:43,059
+77. click(findTestObject("PDP_Page/carticon"))
+

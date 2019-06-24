@@ -1,0 +1,20 @@
+1
+00:00:00,255 --> 00:00:00,258
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:07,026 --> 00:00:07,027
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:07,086 --> 00:00:07,087
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:07,088 --> 00:00:07,089
+13. maximizeWindow()
+
+5
+00:00:07,339 --> 00:00:07,340
+17. click(findTestObject("Homepage/setlocation"))
+

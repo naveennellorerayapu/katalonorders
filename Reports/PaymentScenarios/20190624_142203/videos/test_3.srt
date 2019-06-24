@@ -1,0 +1,8 @@
+1
+00:00:00,147 --> 00:00:00,150
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:05,831 --> 00:00:05,836
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+

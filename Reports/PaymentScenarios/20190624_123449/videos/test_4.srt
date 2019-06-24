@@ -1,0 +1,136 @@
+1
+00:00:00,234 --> 00:00:00,235
+1. openBrowser("https://bigwtech:beauty%BELL%someone**@pimuat-admin.bigw-online.net/")
+
+2
+00:00:09,835 --> 00:00:09,838
+5. waitForPageLoad(0, STOP_ON_FAILURE)
+
+3
+00:00:10,009 --> 00:00:10,009
+9. navigateToUrl("https://pimuat-admin.bigw-online.net/")
+
+4
+00:00:10,011 --> 00:00:10,014
+13. maximizeWindow()
+
+5
+00:00:10,313 --> 00:00:10,315
+17. click(findTestObject("Homepage/setlocation"))
+
+6
+00:00:10,973 --> 00:00:10,975
+21. setText(findTestObject("Homepage/locationenter"), "2150")
+
+7
+00:00:11,358 --> 00:00:11,358
+25. click(findTestObject("Homepage/selectlocation"))
+
+8
+00:00:12,161 --> 00:00:12,161
+29. click(findTestObject("NewTestCaseObject/Page_iPhone  Electronics  BIG W/login"))
+
+9
+00:00:12,262 --> 00:00:12,262
+33. setText(findTestObject("LoginPage/email"), "nm2+30@woolworths.com.au")
+
+10
+00:00:13,139 --> 00:00:13,139
+37. setText(findTestObject("LoginPage/loginpassword"), "34NeH@1993")
+
+11
+00:00:13,329 --> 00:00:13,330
+41. mouseOver(findTestObject("LoginPage/loginbutton"))
+
+12
+00:00:13,375 --> 00:00:13,375
+45. click(findTestObject("LoginPage/loginbutton"))
+
+13
+00:00:14,446 --> 00:00:14,448
+49. setText(findTestObject("NewTestCaseObject/Page_BIG W  Think unbeatable savings think big Think BIG W/input_textsearch_text"), "Intex Stargaze Pool SZet - 59460NP")
+
+14
+00:00:15,069 --> 00:00:15,069
+53. click(findTestObject("Homepage/searchbutton"))
+
+15
+00:00:16,422 --> 00:00:16,424
+57. mouseOver(findTestObject("Homepage/searchimage"), STOP_ON_FAILURE)
+
+16
+00:00:16,493 --> 00:00:16,493
+61. click(findTestObject("Homepage/searchimage"))
+
+17
+00:00:16,575 --> 00:00:42,102
+65. setText(findTestObject("PDP_Page/qty"), "2")
+
+18
+00:00:42,546 --> 00:00:42,546
+69. mouseOver(findTestObject("PDP_Page/addtocart"))
+
+19
+00:00:42,615 --> 00:00:42,615
+73. click(findTestObject("PDP_Page/addtocart"))
+
+20
+00:00:42,759 --> 00:00:42,760
+77. click(findTestObject("PDP_Page/carticon"))
+
+21
+00:00:42,922 --> 00:00:42,922
+81. waitForElementVisible(findTestObject("PDP_Page/carticon"), 10)
+
+22
+00:00:44,776 --> 00:00:44,777
+85. click(findTestObject("PDP_Page/carticon"))
+
+23
+00:00:44,778 --> 00:00:44,780
+89. mouseOver(findTestObject("CartPage/proceedtocheckout"))
+
+24
+00:00:44,783 --> 00:00:44,783
+93. click(findTestObject("CartPage/proceedtocheckout"))
+
+25
+00:00:46,230 --> 00:00:46,231
+97. mouseOver(findTestObject("CheckoutPage/nextstep"))
+
+26
+00:00:46,313 --> 00:00:46,314
+101. click(findTestObject("CheckoutPage/nextstep"))
+
+27
+00:00:49,476 --> 00:00:49,477
+105. click(findTestObject("CheckoutPage/paypal"))
+
+28
+00:00:49,598 --> 00:00:49,599
+109. click(findTestObject("CheckoutPage/proceedtopaypal"))
+
+29
+00:00:56,817 --> 00:00:56,818
+113. clearText(findTestObject("CheckoutPage/paypalemail"))
+
+30
+00:00:56,925 --> 00:00:56,926
+117. setText(findTestObject("CheckoutPage/paypalemail"), "k.kishore1@tcs.com")
+
+31
+00:00:57,210 --> 00:00:57,211
+121. setText(findTestObject("CheckoutPage/paypalpwd"), "tcs.com.paypal")
+
+32
+00:00:57,381 --> 00:00:57,382
+125. click(findTestObject("CheckoutPage/paypallogin"))
+
+33
+00:01:05,908 --> 00:01:05,909
+129. waitForElementPresent(findTestObject("CheckoutPage/paynowpaypal"), 50)
+
+34
+00:01:57,844 --> 00:01:57,846
+133. mouseOver(findTestObject("CheckoutPage/paynowpaypal"))
+
